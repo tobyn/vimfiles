@@ -27,3 +27,6 @@ nmap <Leader>o :CtrlP<CR>
 " Use Emmet's abbreviation expansion instead of tab completion for HTML/CSS
 autocmd FileType html,css imap <buffer> <expr> <Tab>
   \ emmet#expandAbbrIntelligent("\<Tab>")
+
+" Remove trailing whitespace
+nmap <Leader>w :FixWhitespace<CR>
