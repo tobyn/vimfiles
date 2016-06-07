@@ -1,6 +1,8 @@
 set columns=120 lines=50
 
-if has("unix") && !has("mac")
+if has("mac")
+  set guifont=Source\ Code\ Pro:h14
+elseif has("unix")
   set guifont=Source\ Code\ Pro\ 12
 else
   set guifont=Consolas:h12
