@@ -16,6 +16,9 @@ set wildignore=bower_components,node_modules,target
 
 let mapleader = ","
 
+" Don't load .editorconfig for files matching these patterns
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+
 " Use The Silver Searcher instead of ack with ack.vim
 let g:ackprg = 'ag --vimgrep'
 
