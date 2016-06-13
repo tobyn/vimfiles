@@ -16,6 +16,10 @@ set wildignore=bower_components,node_modules,target
 
 let mapleader = ","
 
+" Use EasyMotion for search
+map / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+
 " Don't load .editorconfig for files matching these patterns
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
