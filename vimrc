@@ -16,6 +16,8 @@ set wildignore=bower_components,node_modules,target
 
 let mapleader = ","
 
+map <Leader>t :NERDTreeToggle<CR>
+
 " Add more convenient EasyMotion bindings
 map / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
