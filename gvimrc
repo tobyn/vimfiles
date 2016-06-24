@@ -1,4 +1,4 @@
-set columns=120 lines=50
+set columns=140 lines=50
 
 if has("mac")
   set guifont=Source\ Code\ Pro:h14
