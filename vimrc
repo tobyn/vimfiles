@@ -45,9 +45,8 @@ let g:syntastic_javascript_checkers = ['jshint', 'eslint']
 let g:syntastic_java_checkers = []
 let g:syntastic_html_checkers = []
 
-" Use Emmet's abbreviation expansion instead of tab completion for HTML/CSS
-autocmd FileType html,css imap <buffer> <expr> <C-e>
-  \ emmet#expandAbbrIntelligent("\<Tab>")
+" Make emmet's abbreviation expansion easier to access
+imap <expr> <C-e> emmet#expandAbbrIntelligent("\<Tab>")
 
 " Remove trailing whitespace
 nmap <Leader>w :FixWhitespace<CR>
