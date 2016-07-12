@@ -52,3 +52,6 @@
 [submodule "bundle/polyglot"]
 	path = bundle/polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "bundle/json"]
+	path = bundle/json
+	url = https://github.com/elzr/vim-json.git
