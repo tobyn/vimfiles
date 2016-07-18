@@ -5,6 +5,8 @@ set nocompatible
 syntax on
 filetype plugin indent on
 
+set encoding=utf-8
+
 set bs=2
 set laststatus=2 ruler
 set et ts=2 sts=2 sw=2
