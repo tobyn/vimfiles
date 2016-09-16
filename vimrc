@@ -8,13 +8,14 @@ filetype plugin indent on
 set encoding=utf-8
 
 set bs=2
+set completeopt=menuone
 set laststatus=2 ruler
 set et ts=2 sts=2 sw=2
 set wrap linebreak
 set number
 set ai nosi nocin
 set scrolloff=10
-set wildignore=bower_components,node_modules,target
+set wildignore=bower_components,build,node_modules,target
 
 let mapleader = ","
 
@@ -43,7 +44,7 @@ nmap <Leader>o :CtrlP<CR>
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_loc_list_height = 3
-let g:syntastic_javascript_checkers = ['jshint', 'eslint']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_java_checkers = []
 let g:syntastic_html_checkers = []
 
